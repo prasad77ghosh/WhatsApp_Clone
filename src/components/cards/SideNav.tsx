@@ -11,8 +11,8 @@ import {
 
 const SideNav = () => {
   return (
-    <nav className="w-full bg-teal-200 flex flex-col gap-2 sticky top-0 h-[8rem]">
-      <div className="flex p-2 bg-red-500 items-center">
+    <nav className="w-full bg-teal-200 flex flex-col gap-2 sticky top-0 h-[7.5rem]">
+      <div className="flex px-2 pt-1 pb-2 bg-red-500 items-center">
         <div className="rounded-full h-[50px] basis-[40%]">
           <Image
             src="/profile.jpg"
@@ -29,7 +29,7 @@ const SideNav = () => {
           <MdGroups size={32} />
           <MdAlbum size={26} />
           <MdChat size={26} />
-          <MdMoreVert size={27} />
+          <MdMoreVert size={26} />
         </div>
       </div>
       <div className="flex justify-between items-center px-2 gap-2">

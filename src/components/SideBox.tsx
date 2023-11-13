@@ -6,7 +6,7 @@ const SideBox = () => {
   return (
     <div className="h-full">
       <SideNav />
-      <div className="overflow-y-auto flex flex-col gap-[0.4rem] p-1 h-[calc(100vh-8rem)]">
+      <div className="overflow-y-auto flex flex-col gap-[0.4rem] p-1 h-[calc(100vh-7.5rem)]">
         {dummyBoxArr.map((box) => (
           <AddressBox
             key={box.id}

@@ -6,7 +6,7 @@ import React from "react";
 const Chat = () => {
   return (
     <div className="h-screen flex">
-      <div className="sticky top-0 h-full bg-slate-400 basis-[27%]">
+      <div className="h-full bg-slate-400 basis-[27%]">
         <SideBox />
       </div>
       <div className="h-full bg-green-400 basis-[73%]">
