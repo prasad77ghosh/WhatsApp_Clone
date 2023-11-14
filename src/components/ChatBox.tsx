@@ -1,14 +1,4 @@
 import React from "react";
-import Image from "next/image";
-import {
-  MdSearch,
-  MdPermPhoneMsg,
-  MdVideocam,
-  MdMoreVert,
-  MdAdd,
-  MdOutlineMic,
-} from "react-icons/md";
-import { BsEmojiSmile } from "react-icons/bs";
 import ManContNav from "./cards/ManContNav";
 import MessageSend from "./cards/MessageSend";
 import MessageCont from "./cards/MessageCont";
