@@ -1,8 +1,11 @@
 import React from "react";
 import AddressBox from "./cards/AddressBox";
 import SideNav from "./cards/SideNav";
+import { useFetch } from "@/hooks/useAxios";
 
 const SideBox = () => {
+  const { data, error, loading } = useFetch("users/get-all-users");
+  console.log({ data });
   return (
     <div className="h-full">
       <SideNav />

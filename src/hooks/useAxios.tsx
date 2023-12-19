@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import axios, { AxiosRequestConfig, AxiosResponse } from "axios";
 
-const BASE_URL = "http://localhost:3300/api/v1/";
+const BASE_URL = "http://192.168.244.132:3300/api/v1/";
 
 interface ApiResponse<T> {
   data: T | null;

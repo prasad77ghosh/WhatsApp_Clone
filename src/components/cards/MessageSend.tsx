@@ -37,9 +37,15 @@ const MessageSend = () => {
           className="h-12 resize-none px-3 pt-3 pb-1 outline-none w-full rounded-md max-h-36"
         ></textarea>
       </div>
-      <div className="basis-[5%] w-full flex items-center justify-center text-center bg-gray-500 rounded-md h-12">
-        <MdOutlineMic size={26} />
-      </div>
+      {text.length > 0 ? (
+        <div className="basis-[5%] w-full flex items-center justify-center text-center bg-gray-500 rounded-md h-12">
+          <h1>Send</h1>
+        </div>
+      ) : (
+        <div className="basis-[5%] w-full flex items-center justify-center text-center bg-gray-500 rounded-md h-12">
+          <MdOutlineMic size={26} />
+        </div>
+      )}
     </div>
   );
 };
